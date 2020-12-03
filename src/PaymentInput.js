@@ -1,5 +1,8 @@
+/**
+ * text input conditionally enabled/disabled via checkbox
+ */
+
 import React, { useState } from 'react';
-// import PropTypes from 'prop-types';
 import { Checkbox, TextField } from '@material-ui/core';
 
 import iconDictionary from './utils/iconDictionary';
@@ -27,7 +30,5 @@ const PaymentInput = () => {
     </div>
   );
 };
-
-PaymentInput.propTypes = {};
 
 export default PaymentInput;
